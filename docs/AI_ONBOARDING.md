@@ -49,7 +49,6 @@ Scans YouTube/IG comments for mentions of unknown creators. It runs a shallow sc
 *   **Frontend (Planned):** MediaPose for body tracking, 3D Body Map UI for proprioception feedback.
 
 ### Evaluated & Rejected Technologies
-*   **SpaceTimeDB:** Evaluated as a potential database, but rejected. SpaceTimeDB is built for real-time multiplayer state synchronization using WebAssembly modules, lacking native high-dimensional vector search support. Our pipeline requires robust semantic search over embeddings, making our current SQLite + ChromaDB stack the optimal choice.
 *   **PageIndex RAG:** Evaluated for retrieval. Rejected for our core Instagram/Video tips because they are short, flat, and unstructured, which perfectly suits ChromaDB's flat vector similarity search. *However*, PageIndex remains a strong candidate for future implementation in our `research_papers` collection, where parsing massive, highly structured academic PDFs requires structural LLM reasoning rather than simple semantic chunking.
 
 ### Branching Strategy (DO NOT MERGE UNLESS INSTRUCTED)
