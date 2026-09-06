@@ -46,6 +46,8 @@ If you are starting work on any of the following, please create a **new branch**
 
 Each feature branch contains its own detailed documentation within the `docs/` folder.
 * [Consensus Engine Architecture](docs/consensus_engine_architecture.md)
+* [Consensus Engine: Prior Art & Competitive Analysis](docs/prior_art_and_competitive_analysis.md)
+* [AI Consensus Engine Executive Whitepaper (PDF)](docs/AI_Consensus_Engine_Guide.pdf)
 * [Instagram Scraper Architecture](docs/instagram_scraper_architecture.md)
 
 Once a branch is merged into `main`, its documentation will also become available here on the main branch, creating a comprehensive, interconnected Wiki.

@@ -21,6 +21,7 @@ Calculates a Congruence Score (1-100) for every extracted tip to verify its legi
 *   **Semantic Echo:** Does ChromaDB find other high-trust creators saying the exact same thing?
 *   **Deterministic Filtering:** Comments are filtered for specific anatomical keywords to prevent hallucinating engagement-bait.
 *   **Research Congruence:** Does the tip align with RAG-queried biomechanics PDFs (PubMed/Semantic Scholar)?
+*   **Prior Art & Competitive Intelligence:** See `docs/prior_art_and_competitive_analysis.md` for landscape analysis across scientific RAG, claim verification, and computer-vision feedback loops.
 
 ### B. The Evergreen Data Loop & Diagnostic UI
 A good tip can fail if the user executes it poorly. We prevent unfairly penalizing good tips via this loop:
